@@ -182,3 +182,33 @@ body {
   background-size: 150px;
   background-repeat: no-repeat;
 }
+
+/*media queries*/
+
+@media (max-width: 1024px) {
+  .instagram-wrapper {
+    width: 90%;
+  }
+
+  .instagram-phone {
+    display: none;
+  }
+}
+
+@media (max-width: 650px) {
+  .instagram-wrapper {
+    width: 90%;
+  }
+
+  .instagram-phone {
+    display: none;
+  }
+
+  .instagram-login,.group {
+    width: 100%;
+  }
+
+  .get-the-app {
+    width: 100%;
+  }
+}
