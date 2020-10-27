@@ -97,3 +97,29 @@ body {
 .question-instagram-logout {
   font-weight: 100;
 }
+
+/*media queries*/
+
+@media (max-width: 1024px) {
+  .instagram-wrapper {
+    width: 90%;
+  }
+
+  .instagram-phone {
+    display: none;
+  }
+}
+
+@media (max-width: 650px) {
+  .instagram-wrapper {
+    width: 90%;
+  }
+
+  .instagram-phone {
+    display: none;
+  }
+
+  .instagram-login,.group {
+    width: 100%;
+  }
+}
